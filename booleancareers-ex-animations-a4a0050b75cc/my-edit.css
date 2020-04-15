@@ -1,0 +1,132 @@
+
+/* --------------------------------- ESERCIZIO 1 */
+.ex-1-square {
+    transition: .5s linear;
+}
+
+.ex-1-square:hover {
+    cursor: pointer;
+    background-color: red;
+}
+
+/* --------------------------------- ESERCIZIO 2 */
+.ex-2-square {
+    transition: 1s ease-out;
+}
+
+.ex-2-square:active {
+    width: 100%;
+}
+
+/* --------------------------------- ESERCIZIO 3 */
+.ex-3-square {
+    transition: .5s ease-out;
+}
+
+.ex-3-square:hover {
+    border-radius: 50%;
+}
+
+/* --------------------------------- ESERCIZIO 4 */
+.ex-4-square {
+    transition: .5s ease-out;
+}
+
+.ex-4-square:hover {
+    opacity: 0;
+}
+
+
+/* --------------------------------- ESERCIZIO 5 */
+.ex-5-square {
+    transition: .5s ease-out;
+}
+
+.ex-5-square:hover {
+    transform: scale(2);
+}
+
+.ex-5-square:active {
+    transform: scale(.5);
+}
+
+
+/* --------------------------------- ESERCIZIO 6 */
+.ex-6-img:hover {
+    filter: grayscale(100%);
+}
+
+
+/* --------------------------------- ESERCIZIO 7 */
+.ex-7-img{
+    transition: 1s ease;
+}
+
+.ex-7-img:hover {
+    filter: blur(2px)
+    grayscale(100%)
+    brightness(150%);
+}
+
+
+/* --------------------------------- ESERCIZIO 8 */
+.ex-8-img {
+    transition: 1s ease-out;
+}
+
+.ex-8-img:hover {
+    filter: drop-shadow(15px 15px 8px gray)
+    grayscale(100%);
+    border-radius: 20px;
+}
+
+/* --------------------------------- ESERCIZIO 9 */
+.ex-9-img {
+    transition: .5s ease-in-out;
+}
+
+.ex-9-img:hover {
+    filter: blur(5px) sepia(100%);
+    border-radius: 20px;
+    transform: scale(.8);
+}
+
+/* --------------------------------- ESERCIZIO 10 */
+.ex-10-icon {
+    animation-name: girotondo;
+    animation-duration: .8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes girotondo {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+/* --------------------------------- ESERCIZIO 11 */
+.ex-11-icon:hover {
+    animation-name: ritorna;
+    animation-duration: 1s;
+}
+
+@keyframes ritorna {
+    0% { transform: rotate(0deg); }
+    90% { transform: rotate(270deg); }
+    100% { transform: rotate(0deg); }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* END */
