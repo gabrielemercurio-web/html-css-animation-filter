@@ -119,24 +119,24 @@
 
 /* --------------------------------- ESERCIZIO 12 */
 .ex-12-button:hover .ex-12-top-white {
-    animation-name: top;
+    animation-name: top-12;
     animation-duration: 1s;
     animation-timing-function: ease-in-out;
 }
 
 .ex-12-button:hover .ex-12-bottom-white {
-    animation-name: bottom;
+    animation-name: bottom-12;
     animation-duration: 1s;
     animation-timing-function: ease-in-out;
 }
 
-@keyframes top {
+@keyframes top-12 {
     0% { left: 10%;}
     50% { left: 69%;}
     0% { left: 10%;}
 }
 
-@keyframes bottom {
+@keyframes bottom-12 {
     0% { right: 20%;}
     50% { right: 69%;}
     0% { right: 20%;}
@@ -144,6 +144,33 @@
 
 /* --------------------------------- ESERCIZIO 13 */
 
+.ex-13-button:hover .ex-13-top-white {
+    animation-name: top-13;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+}
+
+.ex-13-button:hover .ex-13-bottom-white {
+    animation-name: bottom-13;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes top-13 {
+    0% { left: 10%; top: -10px; }
+    25% { left: 95%; top: -10px; }
+    50% { left: 95%; top: 55px; }
+    75% { left: -10%; top: 55px; }
+    100% { left: -10%; top: -10px; }
+}
+
+@keyframes bottom-13 {
+    0% { right: 20%; bottom: -10px; }
+    25% { right: 75%; bottom: -10px; }
+    50% { right: 75%; bottom: 55px; }
+    75% { right: -10%; bottom: 55px; }
+    100% { right: -10%; bottom: -10px; }
+}
 
 
 
